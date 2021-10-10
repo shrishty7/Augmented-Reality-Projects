@@ -1,6 +1,6 @@
 body {
-    background-color: #B4CDCD;
-    /* background-image: url("../images/pixels2.jpg"); */
+    background-color: white;
+    background-image: url("../images/pixels3.jpg");
     background-repeat: repeat;
     /* repeat, no-repeat */
     background-attachment: fixed;
@@ -29,16 +29,18 @@ body {
 
 .fancy {
     min-height: 150px;
+    padding: 20px;
     /* next two lines for elder IE compatibility */
     height: auto !important;
     height: 150px;
     /* Background color and gradients */
-    background: #eeeeee;
-    background: -moz-linear-gradient(top, #ffffff, #cccccc);
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));
+    /* background: #eeeeee; */
+    /* background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc)); */
     /* really nifty translucence */
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8));
-    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from( rgba(255, 255, 255, 0.8)), to( rgba(200, 200, 200, 0.8)));
+    /* background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8)); */
+    /* background: -webkit-gradient(linear, 0% 0%, 0% 100%, from( rgba(255, 255, 255, 0.8)), to( rgba(200, 200, 200, 0.8))); */
+    background: rgb(130, 181, 186);
+    background: linear-gradient(0deg, rgba(130, 181, 186, 1) 0%, rgba(255, 255, 255, 1) 100%);
     /* Rounded corners */
     -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
@@ -64,7 +66,8 @@ a {
 }
 
 .toc {
-    font-size: 20px;
+    font-size: 30px;
+    color: yellowgreen;
 }
 
 a:hover {
@@ -119,10 +122,10 @@ a:hover .superImage {
 }
 
 .bigTitle {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: bold;
     font-variantx: small-caps;
     color: #004;
     text-align: center;
-    /* text-shadow: -1px -1px 2px #fff, 1px 1px 3px #000; */
+    text-shadow: -1px -1px 2px #fff, 1px 1px 3px #fff;
 }
