@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #ffffff;
     /* background-image: url("../images/pixels3.jpg"); */
     background-repeat: repeat;
     /* repeat, no-repeat */
@@ -40,11 +40,11 @@ body {
     /* background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.8), rgba(200, 200, 200, 0.8)); */
     /* background: -webkit-gradient(linear, 0% 0%, 0% 100%, from( rgba(255, 255, 255, 0.8)), to( rgba(200, 200, 200, 0.8))); */
     background: rgb(130, 181, 186);
-    background: linear-gradient(0deg, rgba(130, 181, 186, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(130, 181, 186, 1) 0%, rgba(255, 255, 255, 1) 100%); */
     /* Rounded corners */
-    -moz-border-radius: 15px 15px 15px 15px;
+    /* -moz-border-radius: 15px 15px 15px 15px;
     -webkit-border-radius: 15px 15px 15px 15px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px; */
 }
 
 
