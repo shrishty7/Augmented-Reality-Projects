@@ -2,7 +2,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Hello, world!</title>
+    <title>Hello, water effect AR!</title>
     <!-- include three.js library -->
     <script src='js/three.js'></script>
     <!-- include jsartookit -->
@@ -25,8 +25,7 @@
     <!-- ---------------- Custom Shader Code ------------------------ -->
     <script id="vertexShader" type="x-shader/x-vertex">
         uniform float time; varying vec2 textureUV; uniform sampler2D baseTexture; void main() { textureUV = uv; vec2 repeatUV = textureUV * vec2(4.0, 1.0); float sideDisplacement = 0.0; // side displacement only applied near edge of texture if (repeatUV.y
-        <
-            0.15) { float angle=a tan(position.y, position.x); float s1=s in(8.3 * angle); float s2=s in(7.1 * angle); sideDisplacement=0 .08 * s1 * s1 * abs(sin(0.65*time)) + 0.09 * s2 * s2 * abs(sin(0.74*time)); } vec3 newPosition=p osition + normal * sideDisplacement;
+        < 0.15) { float angle=a tan(position.y, position.x); float s1=s in(8.3 * angle); float s2=s in(7.1 * angle); sideDisplacement=0 .08 * s1 * s1 * abs(sin(0.65*time)) + 0.09 * s2 * s2 * abs(sin(0.74*time)); } vec3 newPosition=p osition + normal * sideDisplacement;
             gl_Position=p rojectionMatrix * modelViewMatrix * vec4( newPosition, 1.0 ); } </script>
 
             <script id="fragmentShader" type="x-shader/x-vertex">
