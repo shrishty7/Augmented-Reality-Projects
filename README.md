@@ -1,11 +1,13 @@
 # Augmented-Reality-Projects
-➔ Using Augmented Reality to illustrate several usability ideas in diverse areas of life
-is the aim of this project.
+
+➔ Using Augmented Reality to illustrate several usability ideas in diverse areas of life is the aim of this project.
+
 ➔ The libraries AR.js and THREE.js are used.
-➔ Gained an understanding of several components required during augmented reality
-web application development, such as 3D space, marker based vs. marker-less
-apps, mixed reality, virtual reality, webxr, Aframe, lighting, etc.
+
+➔ Gained an understanding of several components required during augmented reality web application development, such as 3D space, marker based vs. marker-less apps, mixed reality, virtual reality, webxr, Aframe, lighting, etc.
+
 ➔ Hosted the website using netlify after learning its working
+
 **
 Check out the website:
 https://arprojectsdemo.netlify.app/**
